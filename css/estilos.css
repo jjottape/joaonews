@@ -1,0 +1,65 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    background-color: #87CEEB;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* Estilizando os subtítulos */
+h3 {
+    font-family: "Arial", sans-serif;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* Estilizando os blocos de notícias */
+.noticia {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Estilizando os links das notícias */
+.noticia a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Efeito hover para as notícias */
+.noticia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito hover para os links */
+.noticia a:hover {
+    text-decoration: underline;
+    color: #1abc9c;
+}
+
+/* Estilizando os parágrafos das notícias */
+.noticia p {
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+}
